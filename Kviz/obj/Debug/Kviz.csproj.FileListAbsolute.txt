@@ -1,0 +1,33 @@
+C:\Users\AcerAspireE5\Desktop\HCI\Kviz\Kviz\bin\Debug\Kviz.exe.config
+C:\Users\AcerAspireE5\Desktop\HCI\Kviz\Kviz\bin\Debug\Kviz.exe
+C:\Users\AcerAspireE5\Desktop\HCI\Kviz\Kviz\bin\Debug\Kviz.pdb
+C:\Users\AcerAspireE5\Desktop\HCI\Kviz\Kviz\obj\Debug\Kviz.csproj.AssemblyReference.cache
+C:\Users\AcerAspireE5\Desktop\HCI\Kviz\Kviz\obj\Debug\Kviz.Form1.resources
+C:\Users\AcerAspireE5\Desktop\HCI\Kviz\Kviz\obj\Debug\Kviz.Properties.Resources.resources
+C:\Users\AcerAspireE5\Desktop\HCI\Kviz\Kviz\obj\Debug\Kviz.csproj.GenerateResource.cache
+C:\Users\AcerAspireE5\Desktop\HCI\Kviz\Kviz\obj\Debug\Kviz.csproj.CoreCompileInputs.cache
+C:\Users\AcerAspireE5\Desktop\HCI\Kviz\Kviz\obj\Debug\Kviz.exe
+C:\Users\AcerAspireE5\Desktop\HCI\Kviz\Kviz\obj\Debug\Kviz.pdb
+C:\Users\AcerAspireE5\Desktop\HCI\Kviz\Kviz\obj\Debug\Kviz.AboutBox.resources
+C:\Users\AcerAspireE5\Desktop\HCI\Kviz\Kviz\obj\Debug\Kviz.Categories.resources
+C:\Users\AcerAspireE5\Desktop\HCI\Kviz\Kviz\obj\Debug\Kviz.filmoviForma.resources
+C:\Users\AcerAspireE5\Desktop\HCI\Kviz\Kviz\obj\Debug\Kviz.geografijaForma.resources
+C:\Users\AcerAspireE5\Desktop\HCI\Kviz\Kviz\obj\Debug\Kviz.istorijaForma.resources
+C:\Users\AcerAspireE5\Desktop\HCI\Kviz\Kviz\obj\Debug\Kviz.muzikaForma.resources
+C:\Users\AcerAspireE5\Desktop\HCI\Kviz\Kviz\obj\Debug\Kviz.sportForma.resources
+C:\Users\AcerAspireE5\Desktop\HCI\Kviz\Kviz\obj\Debug\Kviz.popKulturaForma.resources
+D:\4.godina\INTERAKCIJA ČOVJEK-RAČUNAR\HCI\Kviz\Kviz\obj\Debug\Kviz.csproj.AssemblyReference.cache
+D:\4.godina\INTERAKCIJA ČOVJEK-RAČUNAR\HCI\Kviz\Kviz\obj\Debug\Kviz.AboutBox.resources
+D:\4.godina\INTERAKCIJA ČOVJEK-RAČUNAR\HCI\Kviz\Kviz\obj\Debug\Kviz.Categories.resources
+D:\4.godina\INTERAKCIJA ČOVJEK-RAČUNAR\HCI\Kviz\Kviz\obj\Debug\Kviz.filmoviForma.resources
+D:\4.godina\INTERAKCIJA ČOVJEK-RAČUNAR\HCI\Kviz\Kviz\obj\Debug\Kviz.Form1.resources
+D:\4.godina\INTERAKCIJA ČOVJEK-RAČUNAR\HCI\Kviz\Kviz\obj\Debug\Kviz.geografijaForma.resources
+D:\4.godina\INTERAKCIJA ČOVJEK-RAČUNAR\HCI\Kviz\Kviz\obj\Debug\Kviz.istorijaForma.resources
+D:\4.godina\INTERAKCIJA ČOVJEK-RAČUNAR\HCI\Kviz\Kviz\obj\Debug\Kviz.muzikaForma.resources
+D:\4.godina\INTERAKCIJA ČOVJEK-RAČUNAR\HCI\Kviz\Kviz\obj\Debug\Kviz.popKulturaForma.resources
+D:\4.godina\INTERAKCIJA ČOVJEK-RAČUNAR\HCI\Kviz\Kviz\obj\Debug\Kviz.Properties.Resources.resources
+D:\4.godina\INTERAKCIJA ČOVJEK-RAČUNAR\HCI\Kviz\Kviz\obj\Debug\Kviz.sportForma.resources
+D:\4.godina\INTERAKCIJA ČOVJEK-RAČUNAR\HCI\Kviz\Kviz\obj\Debug\Kviz.csproj.GenerateResource.cache
+D:\4.godina\INTERAKCIJA ČOVJEK-RAČUNAR\HCI\Kviz\Kviz\obj\Debug\Kviz.csproj.CoreCompileInputs.cache
+D:\4.godina\INTERAKCIJA ČOVJEK-RAČUNAR\HCI\Kviz\Kviz\obj\Debug\Kviz.exe
+D:\4.godina\INTERAKCIJA ČOVJEK-RAČUNAR\HCI\Kviz\Kviz\obj\Debug\Kviz.pdb

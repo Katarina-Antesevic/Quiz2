@@ -1,0 +1,358 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{446339AA-C3D1-4928-819C-DD8B3BF59B40}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>Kviz</RootNamespace>
+    <AssemblyName>Kviz</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AboutBox.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AboutBox.Designer.cs">
+      <DependentUpon>AboutBox.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Categories.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Categories.Designer.cs">
+      <DependentUpon>Categories.cs</DependentUpon>
+    </Compile>
+    <Compile Include="filmoviForma.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="filmoviForma.Designer.cs">
+      <DependentUpon>filmoviForma.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="geografijaForma.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="geografijaForma.Designer.cs">
+      <DependentUpon>geografijaForma.cs</DependentUpon>
+    </Compile>
+    <Compile Include="istorijaForma.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="istorijaForma.Designer.cs">
+      <DependentUpon>istorijaForma.cs</DependentUpon>
+    </Compile>
+    <Compile Include="muzikaForma.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="muzikaForma.Designer.cs">
+      <DependentUpon>muzikaForma.cs</DependentUpon>
+    </Compile>
+    <Compile Include="popKulturaForma.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="popKulturaForma.Designer.cs">
+      <DependentUpon>popKulturaForma.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="sportForma.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="sportForma.Designer.cs">
+      <DependentUpon>sportForma.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="AboutBox.resx">
+      <DependentUpon>AboutBox.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Categories.resx">
+      <DependentUpon>Categories.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="filmoviForma.resx">
+      <DependentUpon>filmoviForma.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="geografijaForma.resx">
+      <DependentUpon>geografijaForma.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="istorijaForma.resx">
+      <DependentUpon>istorijaForma.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="muzikaForma.resx">
+      <DependentUpon>muzikaForma.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="popKulturaForma.resx">
+      <DependentUpon>popKulturaForma.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="sportForma.resx">
+      <DependentUpon>sportForma.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fifa.jpg.crdownload" />
+    <None Include="Resources\question-mark.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\kviz1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\kviz1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\kviz_web.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Kviz-crtani-filmovi2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\0123germansoldiers.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hirosima.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\kolumbbo.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Ivo.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\titanik.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\alkatraz.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bijelaKuca.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\papirus.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pozadina.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\upitnici.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\movie.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mapa.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mapaa.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\willie.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\kum.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\joker.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\elle.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cady.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ring.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\oscar.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\os.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\zastava.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\australija.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\rusija.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\United-Kingdom.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\stepenice.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cccp.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\najmanja.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\kina.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\360_F_224032170_7PfrDJYWjCw4Rs1WFvhPkiSPuD02sw1q.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\360_F_271120192_ZDT2FCxH94akiIsOHwVULWnbNzi8Oagn.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\2384073.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\color-tennis-sport-advertising-background-advertising-preview.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\0b6ba8e47cfb2932416f613eba76cf95.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\72752f5719a50f923ecc500d8138d343.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\H63jGL.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dd5469431fdf0d22aa1ce86b4a50232f.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\wp2977938.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sabbath.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\radio.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\eva.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\guns.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ques.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\roll.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\5.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\k27.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\kkk.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\grammy.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mariaj.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\spice.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\jack.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\elvis.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\eelvis.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Harry.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\vogue.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fifa.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\medal.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bolt.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ali.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cris.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\kobe.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\john.jpg" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
